@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <conio.h>
-void test02(int a); // ÇÑ¼öÀÇ prototype
+void test02(int a); // í•œìˆ˜ì˜ prototype
 int test01();
-
+ìˆ˜ì •
  int test01()
  {
-	 char* str[] = {"zero""One","two","three","four","five","six","seven","eight","nine",}; // ¹®ÀÚ¿­ Æ÷ÀÎÅÍ ¹è¿­
-	 printf("¼öÀÚ Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ÇØ´çÇÏ´Â ¿µ´Ü¾î¸¦ ¾Ë·Áµå¸®°Ú½À´Ï´Ù.\n");
-	 printf("ÇÁ·Î±×·¥À» ³¡³»½Ã·Á¸é 'q'Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n\n");
+	 char* str[] = {"zero""One","two","three","four","five","six","seven","eight","nine",}; // ë¬¸ìì—´ í¬ì¸í„° ë°°ì—´
+	 printf("ìˆ˜ì í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”. í•´ë‹¹í•˜ëŠ” ì˜ë‹¨ì–´ë¥¼ ì•Œë ¤ë“œë¦¬ê² ìŠµë‹ˆë‹¤.\n");
+	 printf("í”„ë¡œê·¸ë¨ì„ ëë‚´ì‹œë ¤ë©´ 'q'í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n\n");
 	 int n = 1;
 	 while (n)
 	 {
  printf(">");
-	 char c = getch(); // no echo : Å°°ªÀ» Ãâ·ÂÇÏÁö ¾Ê°í ¹İÈ¯
-	 /* char c1 = getchar(); // enter ÇÊ¿ä
+	 char c = getch(); // no echo : í‚¤ê°’ì„ ì¶œë ¥í•˜ì§€ ì•Šê³  ë°˜í™˜
+	 /* char c1 = getchar(); // enter í•„ìš”
 
 	 switch (c)
 	 {
@@ -40,7 +40,7 @@ int test01();
 	 test02(1);
  }
 
- void test02(int a) //¹®ÀÚ¿­°ú ¹®ÀÚ¹è¿­
+ void test02(int a) //ë¬¸ìì—´ê³¼ ë¬¸ìë°°ì—´
  {
 	 char ca[] = "Hello"; // ca[0] : 'H'...ca[4] : 'o' ca[5]:\0
 	 int i;
